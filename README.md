@@ -8,6 +8,23 @@
 
 _This project will take in a user inputted number to convert to roman numerals. This project was built to practice using various loop types._
 
+## Specifications for Pig Latin
+1. Behavior: Get a return for intervals of 1000
+Input: "1000, 2000, 3000"
+Output: "M, MM, MMM"
+
+2. Behavior: For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay".
+Input: "pig latin"
+Output: "igpay  atinlay"
+
+3. Behavior: If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!
+Input: "quiet squeal"
+Output: "ietquay ealsquay"
+
+4. Behavior: For words beginning with "y", treat "y" as a consonant.
+Input: "yellow yacht"
+Output: "ellowyay achtyay"
+
 ## Setup/Installation Requirements
 
 * _open terminal_
